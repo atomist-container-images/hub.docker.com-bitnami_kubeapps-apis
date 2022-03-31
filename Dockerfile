@@ -1,12 +1,15 @@
-# Tags: latest, 2.4.3-debian-10-r49, 2.4.3, 2-debian-10, 2
+# Tags: latest, 2.4.3-debian-10-r50, 2.4.3, 2-debian-10, 2
 FROM bitnami/kubeapps-apis:latest
-FROM bitnami/kubeapps-apis:2.4.3-debian-10-r49
+FROM bitnami/kubeapps-apis:2.4.3-debian-10-r50
 FROM bitnami/kubeapps-apis:2.4.3
 FROM bitnami/kubeapps-apis:2-debian-10
 FROM bitnami/kubeapps-apis:2
 
 # Tags: _
 FROM bitnami/kubeapps-apis:_
+
+# Tags: 2.4.3-debian-10-r49
+FROM bitnami/kubeapps-apis:2.4.3-debian-10-r49
 
 # Tags: 2.4.3-debian-10-r48
 FROM bitnami/kubeapps-apis:2.4.3-debian-10-r48
