@@ -1,12 +1,28 @@
-# Tags: latest, 2.4.3-debian-10-r50, 2.4.3, 2-debian-10, 2
+# Tags: latest, 2.4.4-debian-10-r4, 2.4.4, 2-debian-10, 2
 FROM bitnami/kubeapps-apis:latest
-FROM bitnami/kubeapps-apis:2.4.3-debian-10-r50
-FROM bitnami/kubeapps-apis:2.4.3
+FROM bitnami/kubeapps-apis:2.4.4-debian-10-r4
+FROM bitnami/kubeapps-apis:2.4.4
 FROM bitnami/kubeapps-apis:2-debian-10
 FROM bitnami/kubeapps-apis:2
 
 # Tags: _
 FROM bitnami/kubeapps-apis:_
+
+# Tags: 2.4.4-debian-10-r3
+FROM bitnami/kubeapps-apis:2.4.4-debian-10-r3
+
+# Tags: 2.4.4-debian-10-r2
+FROM bitnami/kubeapps-apis:2.4.4-debian-10-r2
+
+# Tags: 2.4.4-debian-10-r1
+FROM bitnami/kubeapps-apis:2.4.4-debian-10-r1
+
+# Tags: 2.4.4-debian-10-r0
+FROM bitnami/kubeapps-apis:2.4.4-debian-10-r0
+
+# Tags: 2.4.3-debian-10-r50, 2.4.3
+FROM bitnami/kubeapps-apis:2.4.3-debian-10-r50
+FROM bitnami/kubeapps-apis:2.4.3
 
 # Tags: 2.4.3-debian-10-r49
 FROM bitnami/kubeapps-apis:2.4.3-debian-10-r49
@@ -82,18 +98,3 @@ FROM bitnami/kubeapps-apis:2.4.3-debian-10-r25
 
 # Tags: 2.4.3-debian-10-r24
 FROM bitnami/kubeapps-apis:2.4.3-debian-10-r24
-
-# Tags: 2.4.3-debian-10-r23
-FROM bitnami/kubeapps-apis:2.4.3-debian-10-r23
-
-# Tags: 2.4.3-debian-10-r22
-FROM bitnami/kubeapps-apis:2.4.3-debian-10-r22
-
-# Tags: 2.4.3-debian-10-r21
-FROM bitnami/kubeapps-apis:2.4.3-debian-10-r21
-
-# Tags: 2.4.3-debian-10-r20
-FROM bitnami/kubeapps-apis:2.4.3-debian-10-r20
-
-# Tags: 2.4.3-debian-10-r19
-FROM bitnami/kubeapps-apis:2.4.3-debian-10-r19
